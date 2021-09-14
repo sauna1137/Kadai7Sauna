@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		8A5D021526F0AC9200F5CA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D021426F0AC9200F5CA7E /* AppDelegate.swift */; };
 		8A5D021726F0AC9200F5CA7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D021626F0AC9200F5CA7E /* SceneDelegate.swift */; };
-		8A5D021926F0AC9200F5CA7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D021826F0AC9200F5CA7E /* ViewController.swift */; };
+		8A5D021926F0AC9200F5CA7E /* CalcPlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D021826F0AC9200F5CA7E /* CalcPlusViewController.swift */; };
 		8A5D021C26F0AC9200F5CA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5D021A26F0AC9200F5CA7E /* Main.storyboard */; };
 		8A5D021E26F0AC9300F5CA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5D021D26F0AC9300F5CA7E /* Assets.xcassets */; };
 		8A5D022126F0AC9300F5CA7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5D021F26F0AC9300F5CA7E /* LaunchScreen.storyboard */; };
+		8A5D022F26F0B0EF00F5CA7E /* CalcMinusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D022E26F0B0EF00F5CA7E /* CalcMinusViewController.swift */; };
+		8A5D023426F0B23700F5CA7E /* CalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D023326F0B23700F5CA7E /* CalcModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A5D021126F0AC9200F5CA7E /* Kadai7Sauna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kadai7Sauna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5D021426F0AC9200F5CA7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A5D021626F0AC9200F5CA7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A5D021826F0AC9200F5CA7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A5D021826F0AC9200F5CA7E /* CalcPlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcPlusViewController.swift; sourceTree = "<group>"; };
 		8A5D021B26F0AC9200F5CA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A5D021D26F0AC9300F5CA7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A5D022026F0AC9300F5CA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A5D022226F0AC9300F5CA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5D022E26F0B0EF00F5CA7E /* CalcMinusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcMinusViewController.swift; sourceTree = "<group>"; };
+		8A5D023326F0B23700F5CA7E /* CalcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,39 @@
 			children = (
 				8A5D021426F0AC9200F5CA7E /* AppDelegate.swift */,
 				8A5D021626F0AC9200F5CA7E /* SceneDelegate.swift */,
-				8A5D021826F0AC9200F5CA7E /* ViewController.swift */,
-				8A5D021A26F0AC9200F5CA7E /* Main.storyboard */,
-				8A5D021D26F0AC9300F5CA7E /* Assets.xcassets */,
+				8A5D022D26F0AF2B00F5CA7E /* Model */,
+				8A5D022C26F0AF2100F5CA7E /* View */,
+				8A5D022926F0AF0D00F5CA7E /* Controller */,
 				8A5D021F26F0AC9300F5CA7E /* LaunchScreen.storyboard */,
 				8A5D022226F0AC9300F5CA7E /* Info.plist */,
 			);
 			path = Kadai7Sauna;
+			sourceTree = "<group>";
+		};
+		8A5D022926F0AF0D00F5CA7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D021826F0AC9200F5CA7E /* CalcPlusViewController.swift */,
+				8A5D022E26F0B0EF00F5CA7E /* CalcMinusViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A5D022C26F0AF2100F5CA7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D021A26F0AC9200F5CA7E /* Main.storyboard */,
+				8A5D021D26F0AC9300F5CA7E /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A5D022D26F0AF2B00F5CA7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D023326F0B23700F5CA7E /* CalcModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +107,7 @@
 				8A5D020D26F0AC9200F5CA7E /* Sources */,
 				8A5D020E26F0AC9200F5CA7E /* Frameworks */,
 				8A5D020F26F0AC9200F5CA7E /* Resources */,
+				8A5D023726F0CA6E00F5CA7E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,13 +163,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A5D023726F0CA6E00F5CA7E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A5D020D26F0AC9200F5CA7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5D021926F0AC9200F5CA7E /* ViewController.swift in Sources */,
+				8A5D021926F0AC9200F5CA7E /* CalcPlusViewController.swift in Sources */,
 				8A5D021526F0AC9200F5CA7E /* AppDelegate.swift in Sources */,
+				8A5D022F26F0B0EF00F5CA7E /* CalcMinusViewController.swift in Sources */,
+				8A5D023426F0B23700F5CA7E /* CalcModel.swift in Sources */,
 				8A5D021726F0AC9200F5CA7E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
