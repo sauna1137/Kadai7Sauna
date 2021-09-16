@@ -8,16 +8,21 @@
 import Foundation
 
 final class CalcModel {
-    func calculate(num1: Int, num2: Int, sign: String) -> String {
+    enum Sign {
+        case plus
+        case minus
+    }
+
+    func calculate(num1: Int, num2: Int, sign: Sign) -> String {
         var result = 0
 
         switch sign {
-        case "plus":
+        case .plus:
            result = num1 + num2
-        case "minus":
+        case .minus:
            result = num1 - num2
-        default:break
         }
+
         return String(result)
     }
 }

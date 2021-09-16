@@ -14,7 +14,7 @@ final class CalcMinusViewController: UIViewController {
     private let calcModel = CalcModel()
 
     @IBAction private func showResultButtonDidTapped(_ sender: Any) {
-        resultLabel.text =  calcModel.calculate(num1: Int(textFIelds[0].text ?? "") ?? 0, num2: Int(textFIelds[1].text ?? "") ?? 0, sign: "minus")
+        resultLabel.text =  calcModel.calculate(num1: Int(textFIelds[0].text ?? "") ?? 0, num2: Int(textFIelds[1].text ?? "") ?? 0, sign: .minus)
         view.endEditing(true)
     }
 
