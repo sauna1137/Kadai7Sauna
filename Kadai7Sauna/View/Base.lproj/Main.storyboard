@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HtY-wb-jMg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HtY-wb-jMg">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -53,8 +53,8 @@
                     <tabBarItem key="tabBarItem" title="plus" id="meP-o0-cnh"/>
                     <connections>
                         <outlet property="resultLabel" destination="K5Z-7B-1bA" id="gkP-qw-NcV"/>
-                        <outletCollection property="textFIelds" destination="tvA-a3-PU5" collectionClass="NSMutableArray" id="GqX-RY-1lL"/>
-                        <outletCollection property="textFIelds" destination="HiL-VP-GSw" collectionClass="NSMutableArray" id="PmT-Lo-cyB"/>
+                        <outlet property="textField1" destination="tvA-a3-PU5" id="NhK-xN-SWD"/>
+                        <outlet property="textField2" destination="HiL-VP-GSw" id="MCW-x0-bAO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -125,8 +125,8 @@
                     <tabBarItem key="tabBarItem" title="minus" id="dAS-Dq-Gwm"/>
                     <connections>
                         <outlet property="resultLabel" destination="lqA-i3-Xpw" id="LaN-yM-6NY"/>
-                        <outletCollection property="textFIelds" destination="uMh-bZ-VaJ" collectionClass="NSMutableArray" id="Ttr-Af-k9M"/>
-                        <outletCollection property="textFIelds" destination="m5A-Cz-L2x" collectionClass="NSMutableArray" id="oPj-Le-otf"/>
+                        <outlet property="textField1" destination="uMh-bZ-VaJ" id="E8Y-Ng-QHS"/>
+                        <outlet property="textField2" destination="m5A-Cz-L2x" id="Lxa-fi-OBF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oRk-so-uUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
