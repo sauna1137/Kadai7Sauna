@@ -53,8 +53,8 @@
                     <tabBarItem key="tabBarItem" title="plus" id="meP-o0-cnh"/>
                     <connections>
                         <outlet property="resultLabel" destination="K5Z-7B-1bA" id="gkP-qw-NcV"/>
-                        <outletCollection property="textFIelds" destination="tvA-a3-PU5" collectionClass="NSMutableArray" id="GqX-RY-1lL"/>
-                        <outletCollection property="textFIelds" destination="HiL-VP-GSw" collectionClass="NSMutableArray" id="PmT-Lo-cyB"/>
+                        <outlet property="textField1" destination="tvA-a3-PU5" id="Vkt-gO-8No"/>
+                        <outlet property="textField2" destination="HiL-VP-GSw" id="j6E-zK-VU8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -125,8 +125,8 @@
                     <tabBarItem key="tabBarItem" title="minus" id="dAS-Dq-Gwm"/>
                     <connections>
                         <outlet property="resultLabel" destination="lqA-i3-Xpw" id="LaN-yM-6NY"/>
-                        <outletCollection property="textFIelds" destination="uMh-bZ-VaJ" collectionClass="NSMutableArray" id="Ttr-Af-k9M"/>
-                        <outletCollection property="textFIelds" destination="m5A-Cz-L2x" collectionClass="NSMutableArray" id="oPj-Le-otf"/>
+                        <outlet property="textField1" destination="uMh-bZ-VaJ" id="owj-gJ-EgK"/>
+                        <outlet property="textField2" destination="m5A-Cz-L2x" id="YUA-6L-x0W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oRk-so-uUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
